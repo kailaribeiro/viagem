@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    min-height: 100vh;
+    font-family: 'Montserrat', sans-serif;
+    background-color: white;
+}
+.topo {
+    width: 100%;
+    height: 70px;
+    background-color: #3264AC;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.menu {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+.menu ul {
+    display: flex;
+    align-items: center;
+    gap: 45px;
+    list-style: none;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    font-weight: 600;
+}
+.menu a:hover {
+    color: #F6A800;
+}
+.icones {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+}
+.banner {
+    width: 100%;
+    position: relative;
+}
+.banner img {
+    width: 100%;
+}
+.textobanner {
+    position: absolute; /* posicionar o elemento em um local específico */
+    top: 20%; /* distância de 20% em relação ao topo do elemento de referência */
+    right: 8%; /* distância de 8% em relação ao lado direito do elemento de referência */
+    width: 350px;
+    color: white;
+}
+.textobanner h1 {
+    font-size: 32px;
+    font-weight: 800;
+    margin-bottom: 12px;
+}
+.textobanner p {
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 22px;
+}
+.botao {
+    display: inline-block;
+    background-color: #F6A800;
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: 700;
+    padding: 18px;
+    border-radius: 8px;
+}
+.botao:hover {
+    background-color: #D88F00;
+}
+.espaco{
+    width: 100%;
+    height: 55px;
+    background-color: white;
+}
+.rodape {
+    width: 100%;
+    background-color: #0D428C;
+    color: white;
+}
+.rodapeconteudo {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 20px 5%;
+}
+.rodapelogo img {
+    padding-top: 20px;
+    padding-left: 0;
+}
+.rodapecoluna {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.rodapecoluna h2 {
+    font-size: 11px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.rodapecoluna a,
+.rodapecoluna p {
+    color: white;
+    text-decoration: none;
+    font-size: 9px;
+}
+.informacao {
+    display: flex;
+    align-items: center;
+    gap: 7px;
+    margin-bottom: 4px;
+    font-size: 9px;
+}
+.informacao img {
+    width: 13px;
+    height: 13px;
+    font-size: 9px;
+}
+.redessocial {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 8px;
+}
+.direitos {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    text-align: center;
+    padding: 6px;
+    font-size: 8px;
+}
